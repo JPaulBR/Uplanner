@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_profesores"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="Profesores" />
+        <item
+            android:id="@+id/nav_cursos"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Cursos" />
+        <item
+            android:id="@+id/nav_grabaciones"
+            android:icon="@drawable/ic_mic_none_black_24dp"
+            android:title="Grabaciones" />
+        <item
+            android:id="@+id/nav_reuniones"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Reuniones" />
+    </group>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_acerca"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="Acerca de" />
+        </menu>
+    </item>
+
+</menu>
